@@ -33,5 +33,5 @@
 	$body .= "</body></html>";
 
     $send = mail($to, $subject, $body, $headers);
-
+	header("Location: http://bhavesh.uniquedigitalapps.in/");;
 ?>
